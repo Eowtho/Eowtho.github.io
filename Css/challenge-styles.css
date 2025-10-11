@@ -33,8 +33,15 @@ nav a {
      background-color:#bb1b47;
   color: white;
   padding: .5em 1em;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration:none;
+
+
+}
+
+nav a:hover {
+    color:blanchedalmond;
+    background-color:crimson;
 
 
 }

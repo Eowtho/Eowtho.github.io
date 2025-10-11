@@ -39,11 +39,6 @@ nav a {
 
 }
 
-nav a:visited {
-    color:rgb(171, 164, 154);
-    background-color:#753b4a
-}
-
 nav a:hover {
     color:blanchedalmond;
     background-color:crimson;

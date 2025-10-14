@@ -29,6 +29,10 @@ h3 {
     font-size: 1.2rem;
 }
 
+nav ul{
+    list-style-type:none;
+}
+
 nav a {
      background-color:#bb1b47;
   color: white;

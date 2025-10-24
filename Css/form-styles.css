@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+* .
+*::before .
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color: #1cb7c8;
+    background-image: url(/img/elizeu-dias-RN6ts8IZ4_0-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    width: 60%;
+    background-color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0, auto;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a{
+    padding: 12px 16px;
+    background-color: rgb(255, 255, 255);
+    color:#42addb;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+nav a:hover{
+    background-color:rgb(209, 230, 254);
+    color:#2789b3
+}
+
+.policies {
+    margin-bottom: 2rem;
+    padding: 5px 7px;
+    color:#42addb;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+form{
+    padding-left: 3rem
+}
+
+label,
+span{
+    display: inline-block;
+    width: 240px;
+    margin-right: 13px;
+    text-align: right;
+}
+
+.radio label{
+    width: 12px;
+}
+
+span{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=number],
+input[type=file],
+input[type=checkbox],
+input[type=password] { 
+padding: 10px;
+margin: 8px 0; 
+border: none;
+border-radius: 8px;
+}
+
+.reserve{
+    padding: 2px 3px;
+    color:#ffffff;
+    background-color:#42addb;
+    border-radius: 1px;
+   
+}
+
+textarea {
+    border-radius: 8px;
+}
+
+button {
+background-color: rgb(255, 255, 255);
+color:rgb(255, 167, 100);
+padding: .5rem; 
+margin-bottom: 1rem;
+border-radius: 8px;
+text-transform: uppercase;
+font-size: .75rem;
+letter-spacing: 1px;
+font-weight: 600;
+cursor: pointer;
+}
+
+button[type=submit] {
+    margin-top: 2rem;
+}
+
+.intro{
+    color: white;
+}
+
+footer {
+    color:#42addb;
+}

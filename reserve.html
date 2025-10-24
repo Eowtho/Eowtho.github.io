@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+          <link rel="stylesheet" href="/css/form-styles.css">
     </head>
 
     <div id="wrapper"></div>
@@ -42,37 +43,37 @@
                 <div>
                     <label for="firstName">First Name:</label>
                     <input type="text" name="firstName" id="firstName" placeholder="first name" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="lastName">Last Name:</label>
                     <input type="text" name="lastName" id="lastName" placeholder="last name" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="email" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="phone">Phone:</label>
                     <input type="tel" name="phone" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="checkindt">Check-in Date:</label>
                     <input type="date" name="checkindt" id="checkindt" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="checkout">Check-out Date:</label>
                     <input type="date" name="checkout" id="checkout" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="guests">Number of Guests:</label>
                     <input type="number" name="guests" id="guests" placeholder="1-4" min="1" max="4" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="room">Room Type:</label>
@@ -84,51 +85,51 @@
                         <option vaue="connect">Connecting Rooms</option>
                         <option value="suite">Suite</option>
                     </select>
-                </div><br>
+                </div>
 
-                <div>
-                    <label for="oceanvw">Ocean View?</label><br>
+                <div class="radio">
+                    <label for="oceanvw"><span>Ocean View?</span></label>
                     
                     <label for="yes">Yes</label>
                     <input type="radio" id="yes" name="oceanvw" value="YES" required>
 
                     <label for="no">No</label>
                     <input type="radio" id="no" name="oceanvw" value="NO" required>
-                </div><br>
+                </div>
 
                 <div>
                     <label for="notes">Notes:</label>
                     <input type="text" id="notes" name="notes" placeholder="what should we know?">
-                </div><br>
+                </div>
 
                 <div>
                     <label for="vproof">Upload Vaccine Proof:</label>
                     <input type="file" id="vproof" name="vproof">
-                </div><br>
+                </div>
 
                 <div>
                     <label for="pwd">Create password to return to this page. (Username will be your email): </label>
                     <input type="password" id="pwd" name="pwd" required>
-                </div><br>
+                </div>
 
                 <hr>
 
                 <div>
                     <label for="agree">By clicking, you agree to our terms</label>
                     <input type="checkbox" id="agree" name="agree">
-                </div><br>
+                </div>
 
                 <div>
                     <input type="submit" value="Submit">
-                </div><br>
+                </div>
 
                 <div>
                     <input type="reset" value="Reset">
                 </div>
-            </form><br><br>
+            </form>
 
             <footer>
-                <small>&copy;2025 Thorpe Inn & Suites</small><br>
+                <small>&copy;2025 Thorpe Inn & Suites</small>
                 <small>White Plains, NY</small>
             </footer>
         </section>

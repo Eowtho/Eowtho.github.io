@@ -20,7 +20,7 @@ body {
 
 #wrapper {
     width: 60%;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(148, 201, 225);
     color: rgb(255, 255, 255);
     padding: 2rem;
     border-radius: 2rem;
@@ -59,10 +59,6 @@ nav a:hover{
     margin-right: 8px;
 }
 
-form{
-    padding-left: 3rem
-}
-
 label,
 span{
     display: inline-block;
@@ -95,10 +91,12 @@ border-radius: 8px;
 }
 
 .reserve{
-    padding: 2px 3px;
+      margin-bottom: 2rem;
+    padding: 5px 7px;
     color:#ffffff;
     background-color:#42addb;
-    border-radius: 1px;
+    border-radius: 8px;
+    margin-right: 8px;
    
 }
 
@@ -125,8 +123,4 @@ button[type=submit] {
 
 .intro{
     color: white;
-}
-
-footer {
-    color:#42addb;
 }

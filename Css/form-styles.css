@@ -3,7 +3,8 @@ html {
    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-
+*,
+* ::before,
 * ::after {
     box-sizing: inherit;
 }

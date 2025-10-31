@@ -1,0 +1,175 @@
+/*
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+html {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.15rem;
+    line-height: 125%;
+    color: #50504f;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+nav{
+    background-color: #c98226;
+    text-align: center;
+
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:link,
+nav a:visited{
+    color:bisque;
+}
+
+nav a:hover,
+nav a:active{
+    background-color:#c96426;
+    color:bisque;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2{
+    font-family: "Oleo Script", system-ui;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3px 2.5px 3px #ccc;
+}
+
+header{
+    margin: 10%;
+}
+
+img{
+    float: left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px #ccc;
+    shape-outside: circle(50%);
+}
+
+header h2{
+    margin-top: 8%;
+}
+
+.rate{
+    clear: both;
+    margin-top: -5%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after{
+    content: "\1f370";
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition{
+    width: 40%;
+    float: left;
+}
+
+.details,
+.instructions{
+    margin-right: 15%;
+    margin-left: 2%;
+}
+
+blockquote{
+    clear: both;
+    width: 300px;
+    height: 280px;
+    padding: 78px 16px 0 20px;
+    border-radius: 50%;
+    background-color:#c98226;
+    outline: dotted 7px #c96426;
+    color:white;
+    font-size: 1rem;
+    margin: 40px auto;
+}
+
+blockquote small{
+    text-align: right;
+}
+
+footer{
+    background-color:#c98226;
+    color: white;
+    padding: 2% 0;
+    margin-top: 10px
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a:hover{
+    color:bisque
+}
+
+.col1,
+.col2,
+.col3{
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+footer p{
+    clear:both;
+}

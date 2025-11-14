@@ -8,12 +8,40 @@ body {
 }
 
 h1 {
-    color: #e3ffc4;
-    text-decoration: underline;
-    font-size: 3rem;
+    color:#b72824;
+    text-decoration: underline .1rem;
+    font-size: 4rem;
     font-weight: bold;
     text-underline-offset: 15px;
-    text-align:center;
+    text-align: center;
+}
+
+h1,
+img{
+    animation-name: fadetxt;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadetxt{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        font-size: 4.2rem
+    }
+    100%{
+        opacity: 1;
+        font-size: 5rem;
+    }
+}
+
+nav{
+    float: right;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
 }
 
 nav ul{
@@ -21,18 +49,19 @@ nav ul{
 }
 
 nav a{
- background-color:#b72824;
-  color: #e3ffc4;
-  padding: .5em 1em;
-  text-transform: uppercase;
-  text-decoration:none;
+    color: #e3ffc4;
+    border: 2px solid;
+    padding: .5em 1em;
+    text-transform: uppercase;
+    text-decoration:none;
+    transition: all .75s ease-in;
 }
 
 nav a:hover{
-    background-color:#841410;
-    color:#a4c480;
-    font-weight: bolder;
-
+    color:#b72824;
+    background-color:#e3ffc4;
+    border-color: #e3ffc4;
+    transition: all .75s;
 }
 
 img{
@@ -59,12 +88,13 @@ hr{
     padding: .5em .5em;
     text-decoration:none;
     line-height: 2;
-    font-weight: lighter;
+    transition: all .3s
 }
 
 .assignments a:hover{
     color:#a4c480;
-    font-weight: bold;
+    font-size: 1.03rem;
+    transition: all .3s;
 }
 
 footer {
@@ -77,22 +107,21 @@ footer a{
   padding: .5em 1em;
   text-transform: uppercase;
   text-decoration:none;
-
-
+  transition: all .3s ease-in;
 }
 
 footer a:hover {
-    background-color:#841410;
+    background-color:#760a07;
     color:#a4c480;
-    font-weight: bolder;
+    transition: all .3s;
 }
 
 .t a{
     color:#e3ffc4;
     font-size: .7rem;
+    float: left;
 }
 
 .t a:hover{
     color:#a4c480;
-    font-weight: bold;
 }

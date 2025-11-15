@@ -17,11 +17,11 @@ h1 {
 }
 
 .fade-text{
-    animation: fadehdr linear .5s;
+    animation: pophdr linear .5s;
     animation-fill-mode: forwards;
 }
 
-@keyframes fadehdr {
+@keyframes pophdr {
     0%{
         opacity: 0;
     }

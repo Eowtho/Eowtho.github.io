@@ -4,31 +4,29 @@ html {
 }
 
 body {
-    background-color:#131814;
+    background-color:#48192e;
 }
 
 h1 {
-    color:#b72824;
+    color:#957083;
     text-decoration: underline .1rem;
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: bolder;
     text-underline-offset: 15px;
     text-align: center;
 }
 
-h1,
-img{
-    animation-name: fadetxt;
-    animation-duration: 1s;
+.fade-text{
+    animation: fadehdr linear .5s;
     animation-fill-mode: forwards;
 }
 
-@keyframes fadetxt{
+@keyframes fadehdr {
     0%{
         opacity: 0;
     }
     50%{
-        font-size: 4.2rem
+        font-size: 5.1rem
     }
     100%{
         opacity: 1;
@@ -49,7 +47,7 @@ nav ul{
 }
 
 nav a{
-    color: #e3ffc4;
+    color: #c59c79;
     border: 2px solid;
     padding: .5em 1em;
     text-transform: uppercase;
@@ -58,9 +56,9 @@ nav a{
 }
 
 nav a:hover{
-    color:#b72824;
-    background-color:#e3ffc4;
-    border-color: #e3ffc4;
+    color:#48192e;
+    background-color:#c59c79;
+    border-color:#c59c79;
     transition: all .75s;
 }
 
@@ -71,57 +69,57 @@ img{
 }
 
 .bio {
-    background-color:#b72824;
-    color:#e3ffc4;
+    background-color:#957083;
+    color:#48192e;
     padding: .7em .7em;
     text-align: center;
     font-size:1.5rem;
 }
 
 hr{
-    border-top: 2px solid #e3ffc4;
+    border: 1.5px solid #c59c79;
 }
 
 .assignments a{
    
-    color:#e3ffc4;
+    color:#957083;
     padding: .5em .5em;
     text-decoration:none;
     line-height: 2;
-    transition: all .3s
+    font-size: 1.3rem;
+    transition: all .3s;
 }
 
 .assignments a:hover{
-    color:#a4c480;
-    font-size: 1.03rem;
+    color:#b57294;
+    font-size: 1.37rem;
     transition: all .3s;
 }
 
 footer {
-    color:#b72824;
+    color:#c59c79;
 }
 
 footer a{
-    background-color:#b72824;
-  color: #e3ffc4;
+  background-color:#957083;
+  color: #281822;
   padding: .5em 1em;
   text-transform: uppercase;
   text-decoration:none;
-  transition: all .3s ease-in;
+  transition: all .3s linear;
 }
 
 footer a:hover {
-    background-color:#760a07;
-    color:#a4c480;
-    transition: all .3s;
+    background-color:#281822;
+    color: #957083;
 }
 
 .t a{
-    color:#e3ffc4;
+    color:#c59c79;
     font-size: .7rem;
     float: left;
 }
 
 .t a:hover{
-    color:#a4c480;
+    color:#b78e6b;
 }

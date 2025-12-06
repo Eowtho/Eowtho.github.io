@@ -1,51 +1,77 @@
+:root{
+    /* 1vw = viewport width*/
+    --font-size: 1vw;
+    --color-mag: #bb1b47;
+    --color-yellow: #ffb03a;
+    --color-white: #fff;
+}
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(var(--font-size) + 14px);
     line-height: 1.5;
+    background-color:black;
 }
 
 /* overrides first declaration because it comes after */
 h1, h2, h3 {
-    color: #bb1b47;
+    color: var(--color-mag);
     font-family:Georgia, 'Times New Roman', Times, Serif;
 }
 
 h1 {
     text-transform:capitalize;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: .1rem;
-    font-size: 3.5rem;
+    font-size: calc(var(--font-size) + 30px);
+    background-image: linear-gradient(to bottom, var(--color-mag) 40%, var(--color-yellow));
+    background-clip: text;
+    color: transparent;
 }
 
 
 h2{
-    font-size: 2rem;
+    font-size: calc(var(--font-size) + 14px);
 }
 
 h3 {
-    font-size: 1.5rem; 
+    font-size: calc(var(--font-size) + 14px); 
 }
 
 .site-intro {
-    font-size: 1.2rem;
+    font-size: calc(var(--font-size) + 5px);
+}
+
+p,
+section,
+footer{
+    color: var(--color-white);
+}
+
+section{
+    font-size: calc(var(--font-size) + 4px);
+}
+
+footer{
+    font-size: calc(var(--font-size) + 2px);
 }
 
 nav ul{
     list-style-type:none;
+    font-size: calc(var(--font-size) + 5px);
 }
 
 nav a {
-     background-color:#bb1b47;
-  color: white;
-  padding: .5em 1em;
-  text-transform: uppercase;
-  text-decoration:none;
-
-
+    background-color:#bb1b47;
+    color: white;
+    padding: .5em 1em;
+    text-transform: uppercase;
+    text-decoration:none;
 }
+
 
 nav a:hover {
     color:blanchedalmond;
-    background-color:crimson;
-
+    background-image: linear-gradient(to bottom, var(--color-mag) 70%, var(--color-yellow));
 
 }
